@@ -1,0 +1,4 @@
+name: CocaaPluginLib
+version: '${project.version}'
+main: me.coca.cocaapluginlib.CocaaPluginLib
+api-version: '1.19'

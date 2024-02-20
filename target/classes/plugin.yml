@@ -1,0 +1,4 @@
+name: CocaaPluginLib
+version: '1.0-SNAPSHOT'
+main: me.coca.cocaapluginlib.CocaaPluginLib
+api-version: '1.19'
