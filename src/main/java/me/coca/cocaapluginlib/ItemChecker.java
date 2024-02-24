@@ -12,9 +12,9 @@ public class ItemChecker {
         }
 
         ItemMeta itemMeta = itemStack.getItemMeta();
-        Component displayName = itemMeta.displayName();
+        String displayName = itemMeta.getDisplayName();
 
-        return displayName != null && displayName.toString().equals(name);
+        return displayName.equals(name);
     }
 
     public static boolean checkForCustomModelData(ItemStack itemStack, int modelData) {
